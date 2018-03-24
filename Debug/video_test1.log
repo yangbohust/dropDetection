@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/3/16 15:28:21。
+     1>项目“C:\Users\77280\Desktop\液滴检测事项\20180225液滴检测\video_test1\video_test1\video_test1.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing video_test1.h...
+         Uic'ing video_test1.ui...
+         Moc'ing calib.h...
+         Moc'ing calibdemo.h...
+         Rcc'ing video_test1.qrc...
+     1>RCC : warning : No resources in 'C:\Users\77280\Desktop\娑叉淮妫€娴嬩簨椤筡20180225娑叉淮妫€娴媆video_test1\video_test1\video_test1.qrc'.
+         
+         Uic'ing calib.ui...
+         Uic'ing calibdemo.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtCore /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtMultimedia /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtMultimediaWidgets /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt calib.cpp calibdemo.cpp GeneratedFiles\Debug\moc_calib.cpp GeneratedFiles\Debug\moc_calibdemo.cpp GeneratedFiles\Debug\moc_video_test1.cpp main.cpp video_test1.cpp
+         calib.cpp
+         calibdemo.cpp
+         moc_calib.cpp
+         moc_calibdemo.cpp
+         moc_video_test1.cpp
+         main.cpp
+         video_test1.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtCore /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtMultimedia /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtMultimediaWidgets /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_video_test1.cpp
+         qrc_video_test1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\77280\Desktop\液滴检测事项\20180225液滴检测\video_test1\Win32\Debug\\video_test1.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Multimediad.lib Qt5MultimediaWidgetsd.lib Qt5Widgetsd.lib opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\77280\Desktop\液滴检测事项\20180225液滴检测\video_test1\Win32\Debug\video_test1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\77280\Desktop\液滴检测事项\20180225液滴检测\video_test1\Win32\Debug\video_test1.lib" /MACHINE:X86 /SAFESEH Debug\calib.obj
+         Debug\calibdemo.obj
+         Debug\moc_calib.obj
+         Debug\moc_calibdemo.obj
+         Debug\moc_video_test1.obj
+         Debug\qrc_video_test1.obj
+         Debug\main.obj
+         Debug\video_test1.obj
+         video_test1.vcxproj -> C:\Users\77280\Desktop\液滴检测事项\20180225液滴检测\video_test1\Win32\Debug\video_test1.exe
+     1>已完成生成项目“C:\Users\77280\Desktop\液滴检测事项\20180225液滴检测\video_test1\video_test1\video_test1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.41

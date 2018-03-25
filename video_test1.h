@@ -23,6 +23,10 @@ class video_test1 : public QMainWindow
 
 public:
 	video_test1(QWidget *parent = Q_NULLPTR);
+	~video_test1();
+	void getCalib(double &calib);
+	
+	
 public slots:
 	void updateImage();
 	void on_startCount_clicked();
@@ -30,11 +34,16 @@ public slots:
 	void on_action_triggered();
 	void on_clearPainter_clicked();
 	void on_openCalib_triggered();
+	void receiveCalib(double data);
+	void on_cleanPainter_clicked();
+	void on_chooseROI_clicked();
+	
 
 private:
 	Ui::video_test1Class ui;
 
 	QTimer theTimer;
+	
 	Mat srcImage;
 	
 	Mat ROI;
@@ -45,6 +54,8 @@ private:
 	Mat grayImage;
 	
 	VideoCapture videoCap;
+	bool isFileOpen;
+
 	bool videoIsOpen;
 	QLabel *imageLabel;
 	long countTemp = 0;
@@ -59,6 +70,11 @@ private:
 	QImage * qImage; // qt 中的图片类型指针
 	IplImage image;  // opencv里的图片类型指针
 	IplImage * tempImage;
+
+	QImage *qTempShowImage;
+	IplImage showImage;
+	IplImage *tempShowIamge;
+
 
 	string filename_;
 
@@ -76,6 +92,17 @@ private:
 
 	Calib* pWidget;
 	CalibDemo *pMianWindow;
+	double Calib;
+
+	int x1;
+	int y1;
+	int x2;
+	int y2;
+
+	QLabel* imageShowLabel;
+	QWidget *imageShowWidget;
+	QOpenGLWidget *imageShowOpenGL;
+	
 
 protected:
 	void paintEvent(QPaintEvent *e);
@@ -84,3 +111,4 @@ protected:
 	void mousePressEvent(QMouseEvent *event);
 	void mouseReleaseEvent(QMouseEvent *event);
 };
+

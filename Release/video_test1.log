@@ -1,21 +1,9 @@
-﻿生成启动时间为 2018/3/15 9:00:18。
-     1>项目“C:\Users\77280\Desktop\液滴检测20180314\20180225液滴检测\video_test1\video_test1\video_test1.vcxproj”在节点 2 上(Build 个目标)。
-     1>CustomBuild:
-         Moc'ing video_test1.h...
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtCore /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtMultimedia /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtMultimediaWidgets /IC:\Qt\Qt5.8.0\5.8\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_video_test1.cpp main.cpp video_test1.cpp
-         moc_video_test1.cpp
-         main.cpp
-         video_test1.cpp
-         正在生成代码...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\77280\Desktop\液滴检测20180314\20180225液滴检测\video_test1\Win32\Release\\video_test1.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib Qt5Widgets.lib opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\77280\Desktop\液滴检测20180314\20180225液滴检测\video_test1\Win32\Release\video_test1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\77280\Desktop\液滴检测20180314\20180225液滴检测\video_test1\Win32\Release\video_test1.lib" /MACHINE:X86 /SAFESEH Release\qrc_video_test1.obj
-         Release\moc_video_test1.obj
-         Release\main.obj
-         Release\video_test1.obj
-         video_test1.vcxproj -> C:\Users\77280\Desktop\液滴检测20180314\20180225液滴检测\video_test1\Win32\Release\video_test1.exe
-     1>已完成生成项目“C:\Users\77280\Desktop\液滴检测20180314\20180225液滴检测\video_test1\video_test1\video_test1.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2018/3/16 15:33:55。
+     1>项目“C:\Users\77280\Desktop\液滴检测事项\20180315液滴检测加功能标定\video_test1\video_test1.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         video_test1.vcxproj -> C:\Users\77280\Desktop\液滴检测事项\20180315液滴检测加功能标定\Win32\Release\video_test1.exe
+     1>已完成生成项目“C:\Users\77280\Desktop\液滴检测事项\20180315液滴检测加功能标定\video_test1\video_test1.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:06.91
+已用时间 00:00:00.11
